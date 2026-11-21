@@ -1,0 +1,26 @@
+# Data handling
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+pyarrow>=15.0
+
+# Modeling (NLinear)
+torch>=2.2
+scikit-learn>=1.4
+scipy>=1.12
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+
+# Dashboard
+streamlit>=1.33
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.29
+
+# Utilities
+tqdm>=4.66
+pyyaml>=6.0
+pytest>=8.0
