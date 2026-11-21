@@ -1,0 +1,59 @@
+# Data (too large for GitHub / may be restricted)
+data/raw/*
+data/processed/*
+*.parquet
+*.csv
+*.feather
+*.h5
+*.hdf5
+
+# Models and checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Experiment tracking
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Dashboard / BI temp files
+.streamlit/secrets.toml
+*.tmp
+*.twbr
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep folder structure and docs
+!data/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
